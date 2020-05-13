@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD38110B246C001A0034ADF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38110A246C001A0034ADF2 /* AppDelegate.swift */; };
+		CD38110D246C001A0034ADF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38110C246C001A0034ADF2 /* SceneDelegate.swift */; };
+		CD38110F246C001A0034ADF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38110E246C001A0034ADF2 /* ViewController.swift */; };
+		CD381112246C001A0034ADF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD381110246C001A0034ADF2 /* Main.storyboard */; };
+		CD381114246C001B0034ADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD381113246C001B0034ADF2 /* Assets.xcassets */; };
+		CD381117246C001B0034ADF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD381115246C001B0034ADF2 /* LaunchScreen.storyboard */; };
+		CD426EBC246C69BA00B43787 /* TRETJapanNFCReader-MIFARE-IndividualNumber in Frameworks */ = {isa = PBXBuildFile; productRef = CD426EBB246C69BA00B43787 /* TRETJapanNFCReader-MIFARE-IndividualNumber */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD381107246C001A0034ADF2 /* MyNumberPINRemainingChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNumberPINRemainingChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD38110A246C001A0034ADF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD38110C246C001A0034ADF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD38110E246C001A0034ADF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD381111246C001A0034ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD381113246C001B0034ADF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD381116246C001B0034ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD381118246C001B0034ADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD426EB9246C67C300B43787 /* MyNumberPINRemainingChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNumberPINRemainingChecker.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD381104246C001A0034ADF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD426EBC246C69BA00B43787 /* TRETJapanNFCReader-MIFARE-IndividualNumber in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3810FE246C001A0034ADF2 = {
+			isa = PBXGroup;
+			children = (
+				CD381109246C001A0034ADF2 /* MyNumberPINRemainingChecker */,
+				CD381108246C001A0034ADF2 /* Products */,
+				CD426EB6246C676100B43787 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD381108246C001A0034ADF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD381107246C001A0034ADF2 /* MyNumberPINRemainingChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD381109246C001A0034ADF2 /* MyNumberPINRemainingChecker */ = {
+			isa = PBXGroup;
+			children = (
+				CD426EB9246C67C300B43787 /* MyNumberPINRemainingChecker.entitlements */,
+				CD38110A246C001A0034ADF2 /* AppDelegate.swift */,
+				CD38110C246C001A0034ADF2 /* SceneDelegate.swift */,
+				CD38110E246C001A0034ADF2 /* ViewController.swift */,
+				CD381110246C001A0034ADF2 /* Main.storyboard */,
+				CD381113246C001B0034ADF2 /* Assets.xcassets */,
+				CD381115246C001B0034ADF2 /* LaunchScreen.storyboard */,
+				CD381118246C001B0034ADF2 /* Info.plist */,
+			);
+			path = MyNumberPINRemainingChecker;
+			sourceTree = "<group>";
+		};
+		CD426EB6246C676100B43787 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD381106246C001A0034ADF2 /* MyNumberPINRemainingChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD38111B246C001B0034ADF2 /* Build configuration list for PBXNativeTarget "MyNumberPINRemainingChecker" */;
+			buildPhases = (
+				CD381103246C001A0034ADF2 /* Sources */,
+				CD381104246C001A0034ADF2 /* Frameworks */,
+				CD381105246C001A0034ADF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNumberPINRemainingChecker;
+			packageProductDependencies = (
+				CD426EBB246C69BA00B43787 /* TRETJapanNFCReader-MIFARE-IndividualNumber */,
+			);
+			productName = MyNumberPINRemainingChecker;
+			productReference = CD381107246C001A0034ADF2 /* MyNumberPINRemainingChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3810FF246C001A0034ADF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "treastrain / Tanaka Ryoga";
+				TargetAttributes = {
+					CD381106246C001A0034ADF2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CD381102246C001A0034ADF2 /* Build configuration list for PBXProject "MyNumberPINRemainingChecker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3810FE246C001A0034ADF2;
+			packageReferences = (
+				CD426EBA246C699700B43787 /* XCRemoteSwiftPackageReference "TRETJapanNFCReader" */,
+			);
+			productRefGroup = CD381108246C001A0034ADF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD381106246C001A0034ADF2 /* MyNumberPINRemainingChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD381105246C001A0034ADF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD381117246C001B0034ADF2 /* LaunchScreen.storyboard in Resources */,
+				CD381114246C001B0034ADF2 /* Assets.xcassets in Resources */,
+				CD381112246C001A0034ADF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD381103246C001A0034ADF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD38110F246C001A0034ADF2 /* ViewController.swift in Sources */,
+				CD38110B246C001A0034ADF2 /* AppDelegate.swift in Sources */,
+				CD38110D246C001A0034ADF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD381110246C001A0034ADF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD381111246C001A0034ADF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD381115246C001B0034ADF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD381116246C001B0034ADF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD381119246C001B0034ADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD38111A246C001B0034ADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD38111C246C001B0034ADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyNumberPINRemainingChecker/MyNumberPINRemainingChecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TWATL5SE8;
+				INFOPLIST_FILE = MyNumberPINRemainingChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tret.MyNumberPINRemainingChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD38111D246C001B0034ADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyNumberPINRemainingChecker/MyNumberPINRemainingChecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TWATL5SE8;
+				INFOPLIST_FILE = MyNumberPINRemainingChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tret.MyNumberPINRemainingChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD381102246C001A0034ADF2 /* Build configuration list for PBXProject "MyNumberPINRemainingChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD381119246C001B0034ADF2 /* Debug */,
+				CD38111A246C001B0034ADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD38111B246C001B0034ADF2 /* Build configuration list for PBXNativeTarget "MyNumberPINRemainingChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD38111C246C001B0034ADF2 /* Debug */,
+				CD38111D246C001B0034ADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD426EBA246C699700B43787 /* XCRemoteSwiftPackageReference "TRETJapanNFCReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/treastrain/TRETJapanNFCReader.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD426EBB246C69BA00B43787 /* TRETJapanNFCReader-MIFARE-IndividualNumber */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD426EBA246C699700B43787 /* XCRemoteSwiftPackageReference "TRETJapanNFCReader" */;
+			productName = "TRETJapanNFCReader-MIFARE-IndividualNumber";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CD3810FF246C001A0034ADF2 /* Project object */;
+}

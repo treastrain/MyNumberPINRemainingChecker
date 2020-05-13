@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TRETJapanNFCReader",
+        "repositoryURL": "https://github.com/treastrain/TRETJapanNFCReader.git",
+        "state": {
+          "branch": "master",
+          "revision": "e4080006a8d526a147ad30649edd60679446593e",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
